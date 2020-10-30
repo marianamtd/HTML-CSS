@@ -11,6 +11,12 @@
     <p>Você pode escrever um parágrafo de qualquer jeito.Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;.  </p>
     <p>Se precisar quebrar <br> um texto em algum lugar específico como esse,<br> você pode usar a tecla &lt;br&gt;.</p>
     <p>Treinando HTML ENTITIES <br>
+    <hr>
+ Para espaço em branco utiliza &nbsp; espaço <br>
+Para marca registrada, &reg;
+Para Copyright, &copy;
+    </p>
+
 
     </p>
 
