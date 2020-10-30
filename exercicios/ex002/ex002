@@ -15,7 +15,12 @@
  Para espaço em branco utiliza &nbsp; espaço <br>
 Para marca registrada, &reg;
 Para Copyright, &copy;
-Para trade mark, &trade
+Para Trade mark, &trade;<br>
+Para Euro , &euro;<br>
+Para Libra, &pound;<br>
+Para Yen, &yen;<br>
+Para Cent &cent;<br>
+Para Soma, &sum;<br>
     </p>
 
 
