@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Título de importância 1</h1>
+    <h2>Título de importância 2</h2>
+    <h3>Título de importância 3</h3>
+    <h4>Título de importância 4</h4>
+    <h5>Título de importância 5 </h5>
+    <h6>Título de importância 6</h6>
+    <p>O título é dividido em 6 tags de importância </p>
+</body>
+</html>
