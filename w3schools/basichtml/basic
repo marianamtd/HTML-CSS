@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <h1>Título de importância 1</h1>
     <h2>Título de importância 2</h2>
     <h3>Título de importância 3</h3>
@@ -13,5 +14,11 @@
     <h5>Título de importância 5 </h5>
     <h6>Título de importância 6</h6>
     <p>O título é dividido em 6 tags de importância </p>
+    <h2>Links</h2>
+    <a href="https://www.w3schools.com/html/html_basic.asp">This is a link</a>
+
+    <h2>Imagens</h2>
+    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+   <p>Por algum motivo, a imagem não está aparecendo.</p>
 </body>
 </html>
