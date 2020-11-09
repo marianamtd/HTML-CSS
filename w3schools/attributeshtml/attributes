@@ -8,5 +8,15 @@
 <body>
     <p style="color:red;">This is a red paragraph.</p>
     <p style="background-color: aqua;">Hello, World!</p>
+    <p>A função PRE serve para preservar espaços e quebras de linhas.</p>
+    <pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+  
+    My Bonnie lies over the ocean.
+  
+    Oh, bring back my Bonnie to me.
+    </pre>
 </body>
 </html>
