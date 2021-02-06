@@ -68,5 +68,47 @@
     Para textos como esse, H<sub>2</sub>0
 </p>
 
+<h2>Exemplo de código em Python</h2>
+<code><pre>numeros = []
+min = max = 0
+for pos in range(0,5):
+    numeros.append(int(input(f'Digite um valor para a posição {pos + 1}: ')))
+    if pos == 0:
+        max = min = numeros[pos]
+    else:
+        if numeros[pos] > max:
+            max = numeros[pos]
+        elif numeros[pos] < min:
+            min = numeros[pos]
+</pre>
+</code>
+
+<h2>Citações</h2>
+<p>
+    Vou citar uma das minhas autoras preferidas, Cora Coralina
+    
+</p>
+<blockquote>
+    Tenho <mark>consciência de ser autêntica</mark> e procuro <mark>superar</mark> todos os dias minha própria personalidade, despedaçando dentro de mim tudo que é velho e morto, pois lutar é a palavra vibrante que levanta os fracos e determina os fortes.
+
+    <mark>O importante é semear, produzir milhões de sorrisos de solidariedade e amizade.</mark>
+        
+    Procuro semear otimismo e plantar sementes de paz e justiça. Digo o que penso, com esperança.
+    
+    Penso no que faço, com fé. Faço o que devo fazer, com amor.
+        
+    <mark>Eu me esforço para ser cada dia melhor, pois bondade também se aprende!</mark>
+</blockquote>
+<p>Segundo o Alenir Paulino Rodrigues, no seu livro Web Design:</p>
+<blockquote cite="https://books.google.com.br/books?id=R1BLBQAAQBAJ&pg=PT18&dq=html&hl=pt-BR&sa=X&ved=2ahUKEwjulZGlrNXuAhV4DrkGHWOOD2sQuwUwAHoECAUQBw#v=onepage&q&f=false">Inserir imagens diferentes locais, como do seu computador, da pasta de imagens, de um site ou de qualquer página na web. </blockquote>
+
+<h2>Abreviação</h2>
+<p>
+    Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.
+</p>
+
+<h2> Texto invertido</h2>
+<p><bdo dir="rtl">Essa porra não tem finalidade para nada!</bdo></p>
+
 </body>
 </html>
