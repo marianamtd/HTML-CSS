@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+body{
+    background-color: cornsilk;
+    font-family: monospace;
+}
+p{
+   color: darkorange;
+}
+h1{
+    background-color: darkorchid;
+    color: rgb(248, 113, 185);
+}
+h2{
+    color: rgb(199, 53, 131);
+}
