@@ -1,13 +1,13 @@
 @charset "UTF-8"
 
-body{
-   background-color: darkorchid;
-
-}
 h1{
-    color: rgb(24, 24, 163);
+    color: rgb(7, 7, 241);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 h2{
-    
+    color:grey;
+    text-align: center;
+}
+a{
+    color: rgb(70, 66, 66);
 }
