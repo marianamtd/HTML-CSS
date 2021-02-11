@@ -1,5 +1,13 @@
 @charset "UTF-8"
 
-body{ 
-    background-image: url(pexels-quang-nguyen-vinh-2166711.jpg);
+body{
+   background-color: darkorchid;
+
+}
+h1{
+    color: rgb(24, 24, 163);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h2{
+    
 }
