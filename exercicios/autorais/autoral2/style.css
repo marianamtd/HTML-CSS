@@ -5,3 +5,9 @@ h2{
     color: grey;
     font-weight: 800;
 }
+picture{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
