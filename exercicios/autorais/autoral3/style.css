@@ -1,10 +1,22 @@
 
-
 body{
-    background-image: url(imagens/pastelsky800.xcf);
+    background-image: url(imagens/pastelskyfull.jpg);
+    text-align: center;
 }
 
 h1{
     color: blueviolet;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+p{
+    
+    font-size: medium;
+}
+pre{
+    font-size: large;
+}
+
+a{
+    color: blueviolet;
 }
