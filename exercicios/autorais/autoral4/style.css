@@ -1,0 +1,14 @@
+* {
+    height: 100%;
+}
+body{
+    font-weight: 800;
+    font-size:x-large ;
+}
+
+a{
+    color: white;
+}
+pre{
+    color: rgb(243, 194, 255);
+}
