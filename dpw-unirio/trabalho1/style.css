@@ -3,6 +3,35 @@ body{
     padding: 0;
     background-color: #0D1B2A
 }
+.nav{
+    height: 82px;
+}
+ul{
+    margin: 5px auto;
+    width: 1300px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.2);
+}
+li{
+    margin-top: 15px;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color:#fff ;
+    text-transform: uppercase;
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 1s;
+    padding: 15px 120px;
+}
+
+li a:hover{
+    transition: 1s;
+    color: black;
+    background:rgba(255, 255, 255, 0.7);
+}
 
 .slideshow{
     weight: 700px;
