@@ -11,5 +11,22 @@ body{
 }
 
 .middle{
-position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.navigation{
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1{
+    color: #D57C00 ;
+}
+h2{
+    color: #D57C00;
 }
