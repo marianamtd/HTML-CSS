@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #0D1B2A
+    background-color: #0D1B2A;
+    text-align: center;
 }
 .nav{
     height: 82px;
@@ -22,7 +23,7 @@ li a{
     text-transform: uppercase;
     font-family: 'Cormorant Unicase', serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 18px;
     transition: 1s;
     padding: 15px 120px;
 }
@@ -31,6 +32,7 @@ li a:hover{
     transition: 1s;
     color: black;
     background:rgba(255, 255, 255, 0.7);
+   
 }
 
 .slideshow{
@@ -44,6 +46,7 @@ li a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
 
 }
 .navigation{
@@ -52,6 +55,7 @@ li a:hover{
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    
 }
 .bar{
     width: 50px;
@@ -60,9 +64,11 @@ li a:hover{
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
+     
 }
 .bar:hover{
     background: #fff;
+
 }
 
 input[name="r"]{
@@ -85,6 +91,7 @@ input[name="r"]{
 
  #r1:checked ~ .s1{
      margin-left: -20%;
+
  }
  #r1:checked ~ .s1{
     margin-left: -40%;
@@ -93,8 +100,36 @@ input[name="r"]{
 
 
 h1{
-    color: #D57C00 ;
+  color :#DAA520;
+
+
 }
 h2{
-    color: #D57C00;
+    color:#DAA520;
 }
+h3{
+  color:#DAA520;
+}
+
+a{
+  color:  #D57C00;
+}
+p{
+  color: #fff;
+  
+   
+
+}
+
+ header {
+
+
+   background-color: #18163D;
+
+ }
+
+ #quiz {
+
+    background-color: #18163D;
+
+ }
