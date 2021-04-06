@@ -3,21 +3,27 @@ body{
     padding: 0;
     background-color: #0D1B2A;
     text-align: center;
-}
-.nav{
-    height: 82px;
-}
-ul{
-    margin: 5px auto;
+      
+  }
+  
+  /* menu de todos as páginas */
+  .nav{
+    height: 300px;
+      
+  }
+  ul{
+    margin: 30px auto;
     width: 1300px;
     height: 50px;
     background: rgba(0, 0, 0, 0.2);
-}
-li{
-    margin-top: 15px;
-    display: inline-block;
-}
-li a{
+  }
+  
+  li{
+      margin-top: 15px;
+      display: inline-block;
+  }
+  
+  li a{
     text-decoration: none;
     color:#fff ;
     text-transform: uppercase;
@@ -25,111 +31,296 @@ li a{
     font-weight: 500;
     font-size: 18px;
     transition: 1s;
-    padding: 15px 120px;
-}
-
-li a:hover{
-    transition: 1s;
-    color: black;
-    background:rgba(255, 255, 255, 0.7);
-   
-}
-
-.slideshow{
-    weight: 700px;
-    height: 400px;
-    overflow: hidden ;
-}
-
-.middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-
-}
-.navigation{
-    position: absolute;
-    bottom:20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
+    padding: 15px 90px;
     
-}
-.bar{
-    width: 50px;
-    height: 10px;
-    border: 1px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-     
-}
-.bar:hover{
-    background: #fff;
-
-}
-
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
-.slides{
-    width: 50%;   
-    height: 100%;
-    display: flex;
-}
-.slide{
-    width: 100%;
-    transition: 0.6s;
-}
- .slide img{
-     weight: 100%;
-     height: 99%;
- }
-
- #r1:checked ~ .s1{
-     margin-left: -20%;
-
- }
- #r1:checked ~ .s1{
-    margin-left: -40%;
-}
-
-
-
-h1{
-  color :#DAA520;
-
-
-}
-h2{
-    color:#DAA520;
-}
-h3{
-  color:#DAA520;
-}
-
-a{
-  color:  #D57C00;
-}
-p{
-  color: #fff;
+  }
   
-   
-
-}
-
- header {
-
-
-   background-color: #18163D;
-
- }
-
- #quiz {
-
+  li a:hover{
+      transition: 1s;
+      color: black;
+      background:rgba(255, 255, 255, 0.7);
+     
+  }
+  
+  /*slide das páginas Index e Livros */
+  .slideshow{
+      weight: 800px;
+      height: 800px;
+      overflow: hidden ;
+  }
+  
+  .middle{
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+  
+  }
+  .navigation{
+      position: absolute;
+      bottom:60px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      
+  }
+  
+  .slides{
+      width: 50%;   
+      height: 100%;
+      display: flex;
+  }
+  .slide{
+      width: 100%;
+      transition: 0.6s;
+  }
+  .slide img{
+      weight: 100%;
+      height: 98%;
+  }
+  
+  /* Títulos */
+  
+  h1{
+    color :#DAA520;
+    font:  60px 'Cormorant Upright', serif;
+  
+  
+  }
+  h2{
+    font-size: 20px;
+    color:rgb(231, 175, 32);
+    font: 50px'Cormorant Upright', serif;
+  }
+  h3{
+    color:#DAA520;
+    font: 30px'Cormorant Upright', serif;
+  }
+  h4{
+    color: #fff;
+    font: 20px 'Open Sans', sans-serif;
+  }
+  
+  /* Links e Parágrafos */
+  
+  a{
+    color:  rgb(231, 175, 32);
+    font-size: 22px;
+    text-decoration: none;
+  
+    
+  }
+  
+  
+  
+  p{
+    color: #fff;
+    font: 27px  'Cormorant Garamond', serif;
+  }
+  
+  
+  header {
     background-color: #18163D;
-
- }
+    text-align: center;
+  
+  }
+  
+  /* página index - "quem somos?" */
+  main{
+    width: 900px;
+    padding: 10px;
+    margin: auto; 
+    text-align: center;
+  }
+  
+  section.quiz {
+  
+    background-color: #18163D;
+  
+  }
+  
+  /*botões em todas as páginas */
+  button{
+    background-color: rgb(230, 170, 21);
+    padding: 8px 8px;
+    width: 150px;
+    border: #555;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  button:hover{
+    transition: 1s;
+    background-color: rgb(255, 136, 0);
+    padding: 8px 8px;
+    width: 150px;
+    border: #555;
+  }
+  
+  
+  
+  #origem {
+  
+  text-align: center;
+    
+  }
+  
+  #fabricação {
+  
+  background-color: #18163D;
+  }
+  
+  #inicio_origem {
+  
+  background-color: #18163D;
+  color :#DAA520;
+  font:  60px 'Cormorant Upright', serif;
+  
+  }
+  
+  /* Menu ordenado livros.html:*/
+  
+  #Menu_ord ol{ 
+    margin: 1px;
+    padding: 10px;
+    color: #DAA520;
+   
+  }
+  
+  #Menu_ord  a:hover{
+    transition: 1s;
+    color: #DAA520;
+    background:#18163D;
+    text-align: left; 
+     
+     
+  }
+  
+  /* Pag de livro 1 = BV*/
+  
+  #Cabeçalho1{
+  
+  color :#fff;
+  font-weight: bold;
+  
+  
+  }
+  
+  #Sinopse1 {
+  background-color: #18163D;
+  text-align: center auto;
+  }
+  
+  /*tabela- Referências*/
+  table{
+  width: 100%;
+  margin-bottom : .5em;
+  table-layout: fixed;
+  text-align: center;
+  color: white;
+  font: 27px  'Cormorant Garamond', serif;
+  border-spacing: 2px;
+  
+  }
+  
+  th{
+  
+  text-align: center;
+  background-color: #18163D;
+  
+  }
+  
+  /*Formulário do quiz*/
+  fieldset{
+   border: 0; 
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .formulario{
+    background-color:rgb(19, 36, 87);
+    font-size: 17px;
+    margin-top: 2%;
+    justify-content: center;
+  }
+  
+  input, select, textarea, button{
+    border-radius: 5px;
+  }
+  
+  .campo{
+    margin-bottom: 1em;
+  }
+  
+  .campo label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    font-family: sans-serif;
+    display: block;
+  }
+  
+  fieldset.grupo .campo{
+    float: left;
+    margin-right:1em;
+  }
+  
+  .campo input[type="text"], .campo select, .campo textarea, button{
+    padding: 0.2em;
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 3px rgb(61, 59, 59);
+  }
+  .campo select option{
+    padding-right: 1em;
+  }
+  
+  #check{
+    display: inline;
+  }
+  
+  .campo input:focus, .campo select:focus, .campo textarea:focus, .grupo input:focus{
+    background: rgb(255, 240, 201)
+  }
+  
+  /*organização dos livros"*/
+  .small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .row{
+    margin-top: 70px;
+  }
+  
+  .col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+  }
+  .col-4 img{
+    width: 80%;
+  }
+  .rating{
+    font-size:15px;
+  }
+  
+  .box {
+  
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #DAA520;
+    padding: 5px;
+  
+  }
+  
+  
+  
+  
+  
+  
