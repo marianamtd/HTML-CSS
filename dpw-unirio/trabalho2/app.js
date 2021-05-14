@@ -81,34 +81,6 @@ botaos.forEach((botao, i) => {
   });
 });
 
-//imagem do carousel passar sozinha
-var repeat = function(activeClass){
-  let active = document.getElementsByClassName('active');
-  let i = 1;
-
-  var repeater = () => {
-    setTimeout(function(){
-      [...active].forEach((activeSlide) => {
-        activeSlide.classList.remove('active');
-      });
-    slides[i].classList.add('active');
-    botaos[i].classList.add('active');
-    i++;
-
-    if(slides.length == i){
-      i = 0;
-    }
-    if(i >= slides.length){
-      return;
-    }
-
-    repeater();
-    }, 10000);
-  }
-  repeater();
-}
-repeat();
-
 //cor de background 
 function wallpaper(){
   hj = new Date();
@@ -139,4 +111,34 @@ function wallpaper(){
     }
 
   }
+}
+
+//imagem do carousel passar sozinha
+var repeat = function(activeClass){
+  let active = document.getElementsByClassName('active');
+  let i = 1;
+
+  var repeater = () => {
+    setTimeout(function(){
+      [...active].forEach((activeSlide) => {
+        activeSlide.classList.remove('active');
+      });
+    slides[i].classList.add('active');
+    botaos[i].classList.add('active');
+    i++;
+
+    if(slides.length == i){
+      i = 0;
+    }
+    if(i >= slides.length){
+      return;
+    }
+
+    repeater();
+    }, 10000);
+  }
+  repeater();
+}
+repeat();
+
 }
