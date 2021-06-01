@@ -27,6 +27,19 @@
         a:hover{
             text-decoration: none;
         }
+        .especial:hover{
+            color: cornsilk;
+            background-color: darkmagenta;
+            text-decoration: none;
+        }
+        .especial::before{
+            content: '>>';
+            font-weight: lighter;
+        }
+        .especial::after{
+            content: '<<';
+            font-weight: lighter;
+        }
     </style>
 </head>
 <body>
@@ -43,6 +56,9 @@
     </p>
     <p>
         <a href="https://rocketseat.com.br">Rocketseat</a>
+    </p>
+    <p>
+        <a id="especial" href="https://github.com/marianamtd">Github</a>
     </p>
     
 </body>
