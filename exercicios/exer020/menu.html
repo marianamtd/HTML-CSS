@@ -9,29 +9,50 @@
         body{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        nav{
+        
+        .principal{
+            height: 50px;
+            background-color: blueviolet;
+            width: 1000px;
+            margin: 30px, auto;
+
+        }
+
+        li{
             display: inline-block;
+            margin-top: 0px;
+            text-decoration: none;
+            padding: 15px 90px;
+        }
+        li:hover{
+            transition: 1s;
+            color: darkmagenta;
+            background: chartreuse;
         }
         nav > ul > ul{
             display: none;
         }
 
-        nav:hover > ul > ul{
+        nav:hover > ul > .submenu{
             display: block;
         }
 
-        nav:hover > ul > ul {
+        nav:hover > ul > .submenu {
             color: chartreuse;
+        }
+
+        .submenu li{
+            display: block;
         }
     </style>
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="principal">
             <li>Index</li>
             <li>Hover</li>
             <li>Menu</li>
-            <ul>
+            <ul class="submenu">
                 <li>Playstation</li>
                 <li>Wii</li>
                 <li>X-box</li>
