@@ -24,14 +24,26 @@
         a:active{
             color: fuchsia;
         }
+        a::before{
+            content: '☛';
+            color: fuchsia;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a::after{
+            content: '☚';
+            text-decoration: none;
+            font-weight: lighter;
+            color: fuchsia;
+        }
     </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <il>
-        <li><a href="https://github.com/marianamtd" target="_blank">Repositório Github</a></li>
-        <li><a href="https://www.youtube.com/channel/UCkcuKs-RNcZmZb0uncA5r3A" target="_blank">Canal do Youtube</a></li>
-        <li><a href="https://www.linkedin.com/in/marianamtd/" target="_blank">Perfil no Linkedin</a></li>
+        <li><a href="https://github.com/marianamtd" target="_blank"> Repositório Github </a></li>
+        <li><a href="https://www.youtube.com/channel/UCkcuKs-RNcZmZb0uncA5r3A" target="_blank"> Canal do Youtube </a></li>
+        <li><a href="https://www.linkedin.com/in/marianamtd/" target="_blank"> Perfil no Linkedin </a></li>
     </il>
 
     
