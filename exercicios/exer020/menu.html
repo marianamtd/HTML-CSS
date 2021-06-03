@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        nav{
+            display: inline-block;
+        }
+        nav > ul > ul{
+            display: none;
+        }
+
+        nav:hover > ul > ul{
+            display: block;
+        }
+
+        nav:hover > ul > ul {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Index</li>
+            <li>Hover</li>
+            <li>Menu</li>
+            <ul>
+                <li>Playstation</li>
+                <li>Wii</li>
+                <li>X-box</li>
+                <li>Nitendo Switch</li>
+            </ul>
+        </ul>
+    </nav>
+</body>
+</html>
