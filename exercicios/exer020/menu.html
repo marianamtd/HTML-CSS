@@ -10,10 +10,19 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: chartreuse;
+            
+        }
+        a:hover{
+            color: blueviolet;
+        }
         .principal{
             height: 50px;
             background-color: blueviolet;
-            width: 1000px;
+            width: 690px;
             margin: 30px, auto;
 
         }
@@ -23,11 +32,15 @@
             margin-top: 0px;
             text-decoration: none;
             padding: 15px 90px;
+            font-weight: bolder;
+            
         }
         li:hover{
             transition: 1s;
             color: darkmagenta;
             background: chartreuse;
+            
+
         }
         nav > ul > ul{
             display: none;
@@ -49,10 +62,11 @@
 <body>
     <nav>
         <ul class="principal">
-            <li>Index</li>
-            <li>Hover</li>
-            <li>Menu</li>
+            <li><a href="index.html" target="_blank">Index</a></li>
+            <li><a href="hover.html" target="_blank">Hover</a></li>
+            <li><a href="menu.html" target="_blank">Menu</a></li>
             <ul class="submenu">
+                <li class="especial"><a href="links.html">Links</a></li>
                 <li>Playstation</li>
                 <li>Wii</li>
                 <li>X-box</li>
